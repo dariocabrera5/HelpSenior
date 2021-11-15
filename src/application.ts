@@ -18,7 +18,7 @@ export class App extends BootMixin(
   constructor(options: ApplicationConfig = {}) {
     super(options);
 
-    // Set up the custom sequence
+    // Set up the custom sequence - Prueba para cambiar
     this.sequence(MySequence);
 
     // Set up default home page
